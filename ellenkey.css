@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+body	{
+	background-color: navy;
+	font-family:Helvetica, Arial, sans-serif;
+	color:white;
+	}
+
+.contenedor{
+	width: 1280px;
+	margin: 20px auto;
+	background-color: #988177;
+	overflow: hidden;
+}
+
+.banner{
+	width: 200%;
+}
+
+header{
+	background-color: #fbdb65;
+	width: 100%;
+}
+
+
+h1{
+	font-family: sans-serif;
+	font-size: 45px;
+	color: #6699cc;
+	text-align: center;
+	padding: 10px;
+	}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	list-style: none;
+	overflow: hidden;
+}
+
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a {
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+	padding: 50px;
+}
+
+
+.contenedor .salon35 img{
+	width: 100%;
+	float: left;
+}
+
+.slider {
+	width: 50%;
+	margin: right;
+	overflow: hidden;
+	float: left;
+
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.pizarron img{
+	width: 50%;
+	float: left;
+
+}
+
+footer{
+	width: 100%;
+	background-color: gray;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.mapa{
+	float: left;
+}
+
+.logo img{
+	height: 250px;
+	float: right;
+}
